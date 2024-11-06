@@ -1,4 +1,8 @@
+using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
+var connectionstring = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<ZeFiveNimeDbContext>(options => 
+options.UseNpgsql(connectionstring));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

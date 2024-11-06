@@ -12,6 +12,7 @@ namespace ZeFiveNime.Models
         public string? SourceTwo { get; set; }
         public string? SourceThree { get; set; }
         public Episode? Episode { get; set; }
-        public int Episode_Source { get; set; }
+        [ForeignKey("Episode")]
+        public int Episode_SourceId { get; set; }
     }
 }

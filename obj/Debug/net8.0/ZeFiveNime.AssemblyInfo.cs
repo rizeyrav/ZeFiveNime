@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZeFiveNime")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58c6baf361eaf41107fc858f53ec020143cd65fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0aa7f3962489d2cb88e4c9ad4281f48c3233f3db")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZeFiveNime")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZeFiveNime")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

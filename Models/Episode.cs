@@ -21,5 +21,6 @@ namespace ZeFiveNime.Models
         [ForeignKey("Animation")]
         public required int Id_Animation { get; set; }
         public ICollection<Source>? Sources { get; set; }
+        
     }
 }
