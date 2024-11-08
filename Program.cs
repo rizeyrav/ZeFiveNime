@@ -1,11 +1,17 @@
 using Microsoft.EntityFrameworkCore;
+using ZeFiveNime.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
+
 var connectionstring = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ZeFiveNimeDbContext>(options => 
 options.UseNpgsql(connectionstring));
 
 // Add services to the container.
+builder.Services.AddControllers();
+// Menambahkan Interface dan Repository
 builder.Services.AddControllersWithViews();
+builder.Services.AddSingleton<IAnimationRepository,AnimationRepository>();
 
 var app = builder.Build();
 

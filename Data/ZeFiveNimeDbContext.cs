@@ -1,9 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using ZeFiveNime.Models;
+
 public class ZeFiveNimeDbContext : DbContext {
-    public DbSet<Animation> Animation { get; set; }
-    public DbSet<Episode> Episode { get; set; }
-    public DbSet<Source> Source { get; set; }
+    public DbSet<ZeFiveNime.Models.Animation> Animation { get; set; }
+    public DbSet<ZeFiveNime.Models.Episode> Episode { get; set; }
+    public DbSet<ZeFiveNime.Models.Source> Source { get; set; }
 
     public ZeFiveNimeDbContext(DbContextOptions<ZeFiveNimeDbContext>options) : base(options)
     {
