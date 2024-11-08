@@ -109,3 +109,5 @@ D:\CSh\ZeFiveNime\obj\Debug\net8.0\refint\ZeFiveNime.dll
 D:\CSh\ZeFiveNime\obj\Debug\net8.0\ZeFiveNime.pdb
 D:\CSh\ZeFiveNime\obj\Debug\net8.0\ZeFiveNime.genruntimeconfig.cache
 D:\CSh\ZeFiveNime\obj\Debug\net8.0\ref\ZeFiveNime.dll
+D:\CSh\ZeFiveNime\bin\Debug\net8.0\package-lock.json
+D:\CSh\ZeFiveNime\bin\Debug\net8.0\package.json

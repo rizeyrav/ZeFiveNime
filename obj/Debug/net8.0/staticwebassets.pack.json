@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\CSh\\ZeFiveNime\\wwwroot\\css\\sites.css",
+      "PackagePath": "staticwebassets\\css\\sites.css"
+    },
+    {
+      "Id": "D:\\CSh\\ZeFiveNime\\wwwroot\\css\\tailwindcss.css",
+      "PackagePath": "staticwebassets\\css\\tailwindcss.css"
+    },
+    {
       "Id": "D:\\CSh\\ZeFiveNime\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
