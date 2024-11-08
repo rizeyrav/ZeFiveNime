@@ -6,11 +6,12 @@ using System.Collections.Generic;
 namespace ZeFiveNime.Controllers{
     [Route("api/Controller")]
     [ApiController]
-    public class Animation : ControllerBase {
+    public class AnimationApiController : ControllerBase {
         private readonly IAnimationRepository _animationRepository;
-        public Animation(IAnimationRepository animationRepository){
+        public AnimationApiController(IAnimationRepository animationRepository){
             _animationRepository = animationRepository;
         }
+        
         // Menampilkan seluruh animasi
         [HttpGet]
         public ActionResult<IEnumerable<Animation>>GetAnimation(){
